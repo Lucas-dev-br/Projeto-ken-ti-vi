@@ -1,0 +1,114 @@
+/* Corpo */
+body{
+    font-family: sans-serif, 'Roboto';
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* Cabeçalho */
+.cabecalho{
+    flex-basis: 30%;
+}
+.cabecalho__logo{}
+.cabecalho__logo img{
+    margin-bottom: 50px;
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+}
+.cabecalho__logo figcaption{
+    display: none;
+}
+
+.cabecalho__menuNavegacao{}
+.cabecalho__menuLista{
+    list-style: none;
+}
+.cabecalho__menuItem{
+    font-size: 22px;
+    margin-bottom: 28px;
+}
+.cabecalho__menuItem a{  
+    text-decoration: none;
+    color: black;
+}
+.cabecalho__menuItem img{
+    max-width: 26px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+
+/* Conteúdo Principal */
+.conteudoPrincipal{
+    flex-basis: 70%;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.conteudoPrincipal__titulo{
+    padding: 10px 30px;
+}
+
+.conteudoPrincipal__formulario{
+    padding: 15px 30px;
+    border-top: 1px solid #e7ecf0;
+    border-bottom: 10px solid #e7ecf0;
+    text-align: right;
+}
+.conteudoPrincipal__formulario textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 55px;
+}
+.conteudoPrincipal__formulario button{
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+}
+
+.conteudoPrincipal__feedNoticias{
+    padding: 20px 32px; 
+}
+.conteudoPrincipal__noticias{
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    list-style: none;
+}
+.conteudoPrincipal__tweet{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 32px;
+}
+.conteudoPrincipal__tweet img{
+    margin-top: 15px;
+}
+.tweet__fotoPerfil{
+    height: 44px;
+    width: 44px;
+    border-radius: 70%;
+}
+.tweet__conteudo{
+    margin-left: 15px;
+}
+.tweet__conteudo h2{
+    display: inline-block;
+}
+.tweet__conteudo span{
+    display: inline-block;
+    color: #828282;
+}
+.tweet__conteudo p{
+    margin-top: 15px; 
+}
+
+
