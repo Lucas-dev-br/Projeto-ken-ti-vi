@@ -28,6 +28,16 @@
   <br>
   
   <div align="center">
+    <img src="https://github.com/Lucas-dev-br/Projeto-ken-ti-vi/blob/main/Projeto_Ken-ti-vi/GifKen-ti-vi.gif" height="425">
+  </div>
+  
+  ## 🕹️ Technologies
+
+This project was developed with the following technologies:
+
+- ✔️HTML
+- ✔️CSS
+- ✔️JavaScript
     
 
 
